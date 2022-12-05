@@ -13,6 +13,9 @@ public class Git : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("UwU");
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            Debug.Log("UwU" + "OwO");
+        }
     }
 }
